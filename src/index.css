@@ -10,3 +10,17 @@
     font-family: 'Roboto', sans-serif;
   }
 }
+
+devicon-html5-plain-wordmark
+{
+    font-size: 3rem;
+}
+
+.article {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}

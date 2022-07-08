@@ -26,7 +26,7 @@ const NavBar = () => {
 
     ]
     return (
-        <div className='flex justify-center items-center w-full h-20 text-white bg-black fixed'>
+        <div className='flex justify-center items-center w-full h-20 text-slate-700 bg-white fixed'>
             <div className='text-5xl ml-2'>
                 srijith v.
             </div>
