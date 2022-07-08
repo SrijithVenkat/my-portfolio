@@ -7,19 +7,19 @@ const Resume = () => {
       id: 1,
       icon: "devicon-html5-plain-wordmark",
       title: "HTML",
-      style: "shadow-green-500",
+      style: "shadow-slate-500",
     },
     {
       id: 2,
       icon: "devicon-python-plain",
       title: "Python",
-      style: "shadow-green-500",
+      style: "shadow-white",
     },
     {
       id: 3,
       icon: "devicon-c-plain",
       title: "C++",
-      style: "shadow-green-500",
+      style: "shadow-black",
     },
     {
       id: 4,
@@ -51,11 +51,11 @@ const Resume = () => {
   return (
     <div
       name="Experience"
-      className="bg-gray-800 w-full h-screen"
+      className="bg-gray-800 w-full whitespace-normal min-h-screen"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+          <p className="text-4xl font-bold border-b-4 bottom-gray-500 inline">
             Experience
           </p>
           <p className="py-6">These are some of the languages that I have worked with to create projects as well as apply in an internship.</p>

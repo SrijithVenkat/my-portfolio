@@ -26,9 +26,9 @@ const NavBar = () => {
 
     ]
     return (
-        <div className='flex justify-center items-center w-full h-20 text-slate-700 bg-white fixed'>
-            <div className='text-5xl ml-2'>
-                srijith v.
+        <div className='flex justify-center items-center w-full h-20 text-slate-700 bg-white fixed z-10'>
+            <div className='text-5xl ml-2 hover:scale-105 duration-200'>
+                <Link to={'Home'} smooth duration={500}>srijith v.</Link>
             </div>
 
             <ul className='hidden md:flex'>

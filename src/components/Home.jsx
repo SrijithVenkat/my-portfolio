@@ -7,8 +7,8 @@ import "./Home.css"
 const Home = () => {
 
   return (
-      <div name="Home" className="h-screen w-full bg-gradient-to-b from-white via-white to-gray-800 ">
-          <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>  
+      <div name="Home" className="w-full bg-gradient-to-b from-white via-white to-gray-800 min-h-screen">
+          <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center min-h-screen px-4 md:flex-row'>  
                 <div className='image'>
                     <img width={300} height={450} src={SrijithImage} alt="My Profile" className='pfp' />
                     <div className='overlay'>
@@ -17,7 +17,7 @@ const Home = () => {
                     <GiFlowerEmblem/>
                     </div>
                 </div>
-                <div className='flex flex-col justify-center h-full'>
+                <div className='flex flex-col justify-center min-h-screen'>
                     <h2 className='text-7xl sm:5xl font-bold text-slate-600'> full-stack developer</h2>
                     {/* bg-clip-text bg-gradient-to-bl from-black to-blue-400 */}
                     <p className='text-gray-500 py-4 max-w-md'>
