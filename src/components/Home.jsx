@@ -1,7 +1,6 @@
 import React from 'react';
 import SrijithImage from '../assets/Srijith.jpeg';
 import {RiArrowRightSLine} from 'react-icons/ri';
-import {GiFlowerEmblem} from 'react-icons/gi'
 import {Link} from 'react-scroll';
 import "./Home.css"
 const Home = () => {
@@ -9,13 +8,12 @@ const Home = () => {
   return (
       <div name="Home" className="w-full bg-gradient-to-b from-white via-white to-gray-800 min-h-screen">
           <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center min-h-screen px-4 md:flex-row'>  
+               <br/>
+               <br/>
+               <br/>
+               <br/>
                 <div className='image'>
-                    <img width={300} height={450} src={SrijithImage} alt="My Profile" className='pfp' />
-                    <div className='overlay'>
-                    <GiFlowerEmblem />
-                        <div className='overlayText'>Picture taken at the MSU Gardens</div>
-                    <GiFlowerEmblem/>
-                    </div>
+                    <img src={SrijithImage} alt="My Profile" className='pfp' />
                 </div>
                 <div className='flex flex-col justify-center min-h-screen'>
                     <h2 className='text-7xl sm:5xl font-bold text-slate-600'> full-stack developer</h2>
@@ -27,8 +25,8 @@ const Home = () => {
                         tabs.
                     </p>
                     <div>
-                        <Link to="Experience" smooth duration={500} className="group text-slate-600 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-white opacity-90 border-2 border-slate-600 cursor-pointer">
-                            Experience
+                        <Link to="Skills" smooth duration={500} className="group text-slate-600 w-fit px-6 py-3 flex items-center rounded-md bg-white opacity-90 border-0 border-slate-600 cursor-pointer">
+                            Skills
                         <span className="group-hover:rotate-90 duration-300">
                             <RiArrowRightSLine size={25} className="ml-1" />
                         </span>
