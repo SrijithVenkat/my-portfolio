@@ -1,3 +1,9 @@
+# Project Overview
+
+This is the repository for my personal website, which is hosted at srijithvenkat.com . The purpose of this website is to pose as a resume and an introduction about me! I hope you enjoy what this website has to offer, and please feel free to contact me through the website! 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
