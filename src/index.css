@@ -6,8 +6,17 @@
 @tailwind utilities;
 
 @layer base{
-  html {
+  html, body {
     font-family: 'Roboto', sans-serif;
+  }
+}
+
+@layer components
+{
+  html, body
+  {
+    height: 100%;
+    width: 100%;
   }
 }
 

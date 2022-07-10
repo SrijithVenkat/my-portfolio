@@ -1,4 +1,7 @@
 import React from "react";
+import "./Skills.css"
+import { HiOutlineMail } from "react-icons/hi";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -6,6 +9,9 @@ const Contact = () => {
       name="Contact"
       className="w-full h-screen bg-gradient-to-t from-black to-gray-800 p-4 text-white whitespace-normal min-h-screen"
     >
+      <br/>
+      <br/>
+      <br/>
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 bottom-gray-500">
@@ -43,6 +49,11 @@ const Contact = () => {
               Let's connect
             </button>
           </form>
+        </div>
+        <div className="flex flex-row h-screen justify-center items-center whitespace-nowrap px-5">
+            <a href = "https://www.linkedin.com/in/srijith-venkateshwaran" className="rounded-tr-md m-10 items-center font-thin">LinkedIn <FaLinkedin size={30} /></a>
+            <a href = "https://github.com/SrijithVenkat" className="rounded-tr-md m-10 font-thin">Github <FaGithub size={30} /></a>
+            <a href = "mailto:srijithvenkateshwaran@gmail.com" className="rounded-tr-md m-10 font-thin">Email <HiOutlineMail size={30} /></a>
         </div>
       </div>
     </div>

@@ -1,8 +1,42 @@
-.article {
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: grid;
-    place-items: center;
+.grid-text
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: inherit;
+    font-size: 12px;
+    font-weight: 300;
+    width: inherit;
+    height: inherit;
+}
+.box
+{
+    display: flex;
+    flex-direction: column;
+    /* width: inherit;
+    height: inherit; */
+    border-width: 4px;
+    border-color: rgb(31,41,55) ;
+}
+
+.box:hover
+{
+    width: initial;
+    height: initial;
+    background-color: slategray;
+    cursor: pointer;
+    border-width: 4px;
+    border-color: slategray;
+    transition-duration: 500ms;
+}
+#elementId Tippy.toolTip {
+    all: initial !important;
+    /* background-color: slategray !important; */
+    /* Override styles here */
+ }
+
+ #footer{
+    height: 3em;
+    width: 100%;
+    margin-bottom: -10em;
+    /* margin-bottom: 10em; */
 }

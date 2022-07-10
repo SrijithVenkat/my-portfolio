@@ -4,6 +4,7 @@ import SocialLinks from "./components/SocialLinks";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Skills from "./components/Skills";
+import "./components/Skills.css"
 
 function App() {
   return (
