@@ -14,16 +14,16 @@ const About = () => {
             </div>
                 <p className='text-xl mt-20 '>
                     Hello! My name is Srijith Venkateshwaran and I am currently pursuing a Bachelor's in
-                    Computer Science at the College of Engineering at Michigan State University. My interests in the Computer Science field lies in Mobile App Development, 
-                    Web Development, and most importantly Problem Solving of any kind. I'm driven by challenges and hope to face more fun ones in the future. I am in my 4th year
-                    at MSU and am extremely excited to get in the workplace.
+                    Computer Science at the College of Engineering at Michigan State University. My interests in the Computer Science field lies in Front End, Back, Mobile App, 
+                    and Web Development. I also love problem solving of any kind! I'm driven by challenges and hope to face more fun ones in the future. I am in my 4th year
+                    at MSU and am extremely excited to get in the workplace and meet some amazing people!
                 </p>
                 <p className='text-xl mt-20'>
                     In my free time, I have a few extracurriculurs and hobbies I like to partake in.
-                    I am the Vice President of Logistics of the Coalition of Indian Undergraduate Students
-                    (CIUS) boasting over 250+ members as one of the largest cultural organizations at MSU. I spend most of my time outside of studying helping the incoming indian students connect with their culture and heritage
-                    to give them the chance I was given my freshman year to make lifelong friends and connections at the many large events we host. In my free time, one of my favorite hobbies
-                    is to go to the gym as it not only gives me a giant bobut helps me keeps a regime. Thank you for taking your time to read this and feel free
+                    I am the Vice President of Logistics in the Coalition of Indian Undergraduate Students
+                    (CIUS) boasting over 250+ members as one of the largest cultural organizations at MSU. I spend most of my time outside of studying helping the incoming indian students connect with their culture and heritage.
+                    I strive to give them the chance I was given my freshman year to make lifelong friends and connections at the many large events that are hosted. In my free time, one of my favorite hobbies
+                    is to go to the gym as it helps me keeps a regime. Thank you for taking your time to read this and feel free
                     to connect with me from the Contact tab!
                 </p>
         </div>
